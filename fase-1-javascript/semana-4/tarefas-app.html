@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefas App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 640px;
+        margin: 40px auto;
+        padding: 0 16px;
+      }
+
+      .linha {
+        display: flex;
+        gap: 8px;
+      }
+
+      input,
+      button {
+        font-size: 16px;
+        padding: 10px;
+      }
+
+      input {
+        flex: 1;
+      }
+
+      li {
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .vazia {
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Minhas tarefas</h1>
+    <div class="linha">
+      <input id="campo-tarefa" type="text" placeholder="Digite uma tarefa" />
+      <button id="botao-adicionar">Adicionar</button>
+    </div>
+    <p id="mensagem-vazia" class="vazia">Nenhuma tarefa ainda</p>
+    <ul id="lista-tarefas"></ul>
+
+    <script src="./tarefas-app.js"></script>
+  </body>
+</html>
