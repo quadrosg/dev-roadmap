@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ES2015",
+    "strict": true,
+    "outDir": "dist"
+  },
+  "include": ["formulario-ts.ts"]
+}

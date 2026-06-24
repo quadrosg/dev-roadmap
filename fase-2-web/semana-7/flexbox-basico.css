@@ -1,0 +1,30 @@
+body {
+  background-color: #111111;
+  color: #f5f5f5;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.topo {
+  margin: 16px;
+}
+
+.lista-cards {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 16px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  .lista-cards {
+  flex-direction: column;
+}
+}
+
+.card {
+  background-color: #2a2a2a;
+  padding: 16px;
+  width: 220px;
+}

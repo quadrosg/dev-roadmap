@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: left;
+
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+section {
+    padding: 16px;
+    margin: 16px;
+}
+
+header {
+    padding: 16px;
+    margin: 16px;
+}

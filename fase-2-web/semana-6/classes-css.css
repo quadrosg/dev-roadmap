@@ -1,0 +1,35 @@
+.topo {
+    margin: 18px;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 24px;
+      
+}
+
+.descricao {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card {
+    background-color: black;
+    padding: 16px;
+    margin: 18px;
+    color: white;
+}
+
+.subtitulo {
+    font-size: 18px;
+}
+
+.texto {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.destaque {
+    background-color: blue;
+    border: 2px solid black;
+}
